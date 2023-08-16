@@ -39,6 +39,7 @@ const Navbar = () => {
                             <li className='p__opensans'><a href='#awards' onClick={()=>setToggleMenu(false)}>Awards</a></li>
                             <li className='p__opensans'><a href='#contact' onClick={()=>setToggleMenu(false)}>Contact</a></li>
                         </ul>
+                        <div className='app__navbar-smallscreen_overlay-split'/>
                         <div className='app__navbar-smallscreen_login'>
                             <a href='#login' className='p__opensans' onClick={()=>setToggleMenu(false)}>Log In</a>
                             <div/>

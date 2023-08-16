@@ -107,7 +107,7 @@
 .app__navbar-smallscreen_login {
     margin-top: 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -125,9 +125,9 @@
 }
 
 .app__navbar-smallscreen_login div {
-    margin: 2rem 0;
-    width: 30px;
-    height: 2px;
+    margin: 2rem 1rem;
+    width: 2px;
+    height: 20px;
     background-color: var(--color-golden);
 }
 
@@ -172,12 +172,15 @@
     }
 
     .app__navbar-smallscreen_login a {
-        font-size: 1.2rem;  
+        font-size: 1.2rem; 
+        line-height: 0.5; 
     }
 
     .app__navbar-smallscreen_login div {
-        margin: 1rem;
-        width: 30px;
+        display: none;
+    }
+    .app__navbar-smallscreen_overlay-split  {
+        width: 150px;
         height: 2px;
         background-color: var(--color-golden);
     }
