@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar } from './components';
-import { AboutUs, Chef, Header, Intro, SpecialMenu } from './container';
+import { AboutUs, Chef, Header, Intro, Laurels, SpecialMenu } from './container';
 import './App.css';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
       <SpecialMenu />
       <Chef />
       <Intro />
+      <Laurels />
     </div>
   );
 }
