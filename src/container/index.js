@@ -6,6 +6,7 @@ import { default as Intro } from './Intro/Intro';
 import { default as Laurels } from './Laurels/Laurels';
 import { default as Gallery } from './Gallery/Gallery';
 import { default as FindUs } from './FindUs/FindUS';
+import { default as Footer } from './Footer/Footer';
 
 export {
     Header,
@@ -16,4 +17,5 @@ export {
     Laurels,
     Gallery,
     FindUs,
-}
+    Footer,
+};
