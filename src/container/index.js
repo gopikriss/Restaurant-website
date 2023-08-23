@@ -4,6 +4,7 @@ import { default as SpecialMenu } from './SpecialMenu/SpecialMenu';
 import { default as Chef } from './Chef/Chef';
 import { default as Intro } from './Intro/Intro';
 import { default as Laurels } from './Laurels/Laurels';
+import { default as Gallery } from './Gallery/Gallery';
 
 export {
     Header,
@@ -12,4 +13,5 @@ export {
     Chef,
     Intro,
     Laurels,
+    Gallery,
 }
